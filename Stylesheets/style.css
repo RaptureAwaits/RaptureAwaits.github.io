@@ -1,0 +1,171 @@
+html {
+	background-image: url("../Images/background.png");
+	background-color: #030303;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	
+	font-family: "Verdana", Sans-serif;
+	color: white;
+	
+	scroll-behavior: smooth;
+}
+
+body {
+	margin: 0; 
+	padding: 0;
+}
+
+p {
+	text-indent: 4pc;
+}
+
+div.Nameplate {
+	text-align: center;
+	background-color: transparent;
+	padding-top: 100px;
+	height: 40pc;
+}
+
+h1.Nameplate {
+	font-size: 70pt;
+}
+
+h2.Nameplate {
+	font-size: 30pt;
+}
+
+div.Socialmark {
+	width: 50pc;
+	height: 10pc;
+	
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5pc;
+}
+
+a.Socialmark {
+	padding-left: 5pc;
+	padding-right: 5pc;
+}
+
+img.Socialmark {
+	width: 10pc;
+}
+
+a.Scrollarrow {
+	margin: auto;
+	position: relative;
+	top: 10pc;
+}
+
+img.Scrollarrow {
+	width: 5pc;
+}
+
+div.Content {
+	margin: 0;
+	padding-top: 25pc;
+	padding-bottom: 15pc;
+	
+	text-align: center;
+	
+	background-image: url("../Images/fade.png");
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-size: cover;
+}
+
+h1.Content {
+	font-size: 50pt;
+	padding-bottom: 5pc;
+}
+
+div.Articledisplay {
+	background-color: #030303;
+}
+
+table.Articledisplay {
+	width: 100pc;
+	
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5pc;
+}
+
+td.Articledisplay {
+	padding-top: 5pc;
+}
+
+a.Articledisplay {
+	text-decoration: none;
+	vertical-align: bottom;
+}
+
+p.Articledisplay {
+	font-size: 20pt;
+	color: white;
+	
+	text-decoration: none;
+	text-align: center;
+	vertical-align: bottom;
+	
+	overflow: hidden;
+}
+
+img.Articledisplay {
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	vertical-align: top;
+}
+
+a.Backbutton {
+	display: block;
+	padding-left: 10px;
+	font-size: 50pt;
+	color: white;
+	text-decoration: none;
+	position: fixed;
+}
+
+img.Backbutton {
+	width: 5pc;
+}
+
+h1.Articletext {
+	padding-top: 5pc;
+	font-size: 30pt;
+}
+
+h2.Articletext {
+	padding-left: 12pc;
+	padding-right: 12pc;
+	padding-top: 0;
+	padding-bottom: 0;
+	
+	text-align: left;
+	font-size: 20pt;
+}
+
+p.Articletext {
+	padding-left: 12pc;
+	padding-right: 12pc;
+	padding-top: 0;
+	padding-bottom: 2pc;
+	
+	text-align: left;
+	font-size: 20pt;
+}
+
+figure.Articletext {
+	padding-bottom: 5pc;
+}
+
+img.Articletext {
+	width: 80pc;
+}
+
+#hideme {
+	display: none;
+}
