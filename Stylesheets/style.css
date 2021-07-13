@@ -1,6 +1,6 @@
 html {
-	background-image: url("../Images/background.png");
 	background-color: #030303;
+	background-image: url("../Images/background.png");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
@@ -63,25 +63,25 @@ img.Scrollarrow {
 	width: 5pc;
 }
 
-div.Content {
-	margin: 0;
+div.Bgfade {
 	padding-top: 25pc;
-	padding-bottom: 15pc;
-	
-	text-align: center;
 	
 	background-image: url("../Images/fade.png");
 	background-repeat: no-repeat;
 	background-attachment: scroll;
-	background-size: cover;
 }
 
-h1.Content {
+h1.Bgfade {
 	font-size: 50pt;
-	padding-bottom: 5pc;
+	text-align: center;
+	margin: 0;
 }
 
 div.Articledisplay {
+	padding-top: 10pc;
+	padding-bottom: 10pc;
+	
+	text-align: center;
 	background-color: #030303;
 }
 
@@ -90,11 +90,11 @@ table.Articledisplay {
 	
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 5pc;
+	padding-top: 0pc;
 }
 
 td.Articledisplay {
-	padding-top: 5pc;
+	padding-bottom: 3pc;
 }
 
 a.Articledisplay {
@@ -131,6 +131,13 @@ a.Backbutton {
 
 img.Backbutton {
 	width: 5pc;
+}
+
+div.Articletext {
+	padding-top: 10pc;
+	
+	text-align: center;
+	background-color: #030303;
 }
 
 h1.Articletext {
